@@ -7,3 +7,5 @@ The project aims to create an EEG-controlled wheelchair system for individuals w
 With a rising global need for assistive technology, traditional wheelchairs offer limited control for those with severe impairments. EEG-controlled wheelchairs, utilizing real-time object detection and advanced BCI technology, promise improved navigation and safety. Incorporating machine learning for signal processing and iterative user feedback will enhance functionality and user experience, addressing challenges faced by individuals with motor impairments.
 
 ## Methodology
+
+![mm](https://github.com/user-attachments/assets/fc8b3750-8fc2-4e8a-9132-3bb8ed8cb27d)
