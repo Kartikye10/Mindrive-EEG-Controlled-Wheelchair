@@ -9,3 +9,19 @@ With a rising global need for assistive technology, traditional wheelchairs offe
 ## Methodology
 
 ![mm](https://github.com/user-attachments/assets/fc8b3750-8fc2-4e8a-9132-3bb8ed8cb27d)
+
+## System Components
+1. Signal Preprocessing using MATLAB: This removes artifacts and noise from 
+the EEG signals.
+2. Feature Extraction using MATLAB: This extracts relevant features from the 
+EEG signals that can be used to control the wheelchair.
+3. Machine Learning Classifier: This is used for classification of EEG signals. We 
+plan to use different ML/DL techniques and compare them. The classifier 
+translates the extracted features into control commands for the wheelchair (e.g., 
+move forward, turn left).
+4. Control Unit: This unit receives the control commands from the classifier and 
+translates them into signals that the wheelchair understands.
+5. Wheelchair: This executes the commands received from the control unit. There 
+may be additional safety features included here like obstacle avoidance sensors.
+6. Pi camera: This is used for capturing live video which would be used to detect 
+obstacle.
